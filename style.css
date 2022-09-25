@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.master-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    100deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(16, 16, 75, 1) 46%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+}
+
+.title-bar {
+  padding-top: 1rem;
+  text-align: center;
+}
+#srmkzilla-logo {
+  width: 6rem;
+  vertical-align: middle;
+}
+
+.title-bar h1 {
+  display: inline;
+  padding-left: 1rem;
+  font-size: 2.5rem;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: 75vh;
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+  display: flex;
+}
+
+.right-container {
+  width: 50%;
+  display: flex;
+  padding: 5rem;
+}
+
+.form-container {
+  background-color: white;
+  width: 100%;
+  margin: 2rem;
+  padding: 5rem 6rem;
+  border-radius: 2rem;
+}
+
+form input {
+  outline: 0;
+  border-width: 0 0 2px;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 3.5rem;
+  padding-bottom: 0.75rem;
+  font-family: "FontAwesome";
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.8;
+}
+
+form button {
+  border-radius: 1rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.2rem;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
